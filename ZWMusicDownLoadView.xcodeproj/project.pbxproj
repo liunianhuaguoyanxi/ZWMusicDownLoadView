@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F735A55205BCA9D00309FE8 /* ZWMusicDownLoadBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F735A54205BCA9D00309FE8 /* ZWMusicDownLoadBtn.m */; };
+		8F735A58205BDAD200309FE8 /* ZWMusicalNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F735A57205BDAD200309FE8 /* ZWMusicalNoteView.m */; };
+		8F9329B7205D491400956798 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9329B5205D491400956798 /* ViewController.m */; };
+		8F9329BB205D492D00956798 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9329BA205D492D00956798 /* AppDelegate.m */; };
+		8FD20D93205A7906003998B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD20D92205A7906003998B7 /* Assets.xcassets */; };
+		8FD20D99205A7906003998B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD20D98205A7906003998B7 /* main.m */; };
+		8FD20DA3205A7906003998B7 /* ZWMusicDownLoadViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD20DA2205A7906003998B7 /* ZWMusicDownLoadViewTests.m */; };
+		8FD20DAE205A7906003998B7 /* ZWMusicDownLoadViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD20DAD205A7906003998B7 /* ZWMusicDownLoadViewUITests.m */; };
+		8FD20DBE205A7A3D003998B7 /* ZWMusicDownLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD20DBD205A7A3D003998B7 /* ZWMusicDownLoadView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FD20D9F205A7906003998B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD20D7E205A7906003998B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD20D85205A7906003998B7;
+			remoteInfo = ZWMusicDownLoadView;
+		};
+		8FD20DAA205A7906003998B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FD20D7E205A7906003998B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FD20D85205A7906003998B7;
+			remoteInfo = ZWMusicDownLoadView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F735A53205BCA9D00309FE8 /* ZWMusicDownLoadBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWMusicDownLoadBtn.h; sourceTree = "<group>"; };
+		8F735A54205BCA9D00309FE8 /* ZWMusicDownLoadBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMusicDownLoadBtn.m; sourceTree = "<group>"; };
+		8F735A56205BDAD200309FE8 /* ZWMusicalNoteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWMusicalNoteView.h; sourceTree = "<group>"; };
+		8F735A57205BDAD200309FE8 /* ZWMusicalNoteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMusicalNoteView.m; sourceTree = "<group>"; };
+		8F9329B5205D491400956798 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F9329B6205D491400956798 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F9329B9205D492D00956798 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F9329BA205D492D00956798 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FD20D86205A7906003998B7 /* ZWMusicDownLoadView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWMusicDownLoadView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD20D92205A7906003998B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FD20D97205A7906003998B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD20D98205A7906003998B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FD20D9E205A7906003998B7 /* ZWMusicDownLoadViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWMusicDownLoadViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD20DA2205A7906003998B7 /* ZWMusicDownLoadViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMusicDownLoadViewTests.m; sourceTree = "<group>"; };
+		8FD20DA4205A7906003998B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD20DA9205A7906003998B7 /* ZWMusicDownLoadViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWMusicDownLoadViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FD20DAD205A7906003998B7 /* ZWMusicDownLoadViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMusicDownLoadViewUITests.m; sourceTree = "<group>"; };
+		8FD20DAF205A7906003998B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD20DBC205A7A3D003998B7 /* ZWMusicDownLoadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWMusicDownLoadView.h; sourceTree = "<group>"; };
+		8FD20DBD205A7A3D003998B7 /* ZWMusicDownLoadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWMusicDownLoadView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FD20D83205A7906003998B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD20D9B205A7906003998B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD20DA6205A7906003998B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F9329B4205D491400956798 /* Dome */ = {
+			isa = PBXGroup;
+			children = (
+				8F9329B5205D491400956798 /* ViewController.m */,
+				8F9329B6205D491400956798 /* ViewController.h */,
+			);
+			path = Dome;
+			sourceTree = "<group>";
+		};
+		8F9329B8205D492D00956798 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8F9329B9205D492D00956798 /* AppDelegate.h */,
+				8F9329BA205D492D00956798 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8FD20D7D205A7906003998B7 = {
+			isa = PBXGroup;
+			children = (
+				8FD20D88205A7906003998B7 /* ZWMusicDownLoadView */,
+				8FD20DA1205A7906003998B7 /* ZWMusicDownLoadViewTests */,
+				8FD20DAC205A7906003998B7 /* ZWMusicDownLoadViewUITests */,
+				8FD20D87205A7906003998B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FD20D87205A7906003998B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FD20D86205A7906003998B7 /* ZWMusicDownLoadView.app */,
+				8FD20D9E205A7906003998B7 /* ZWMusicDownLoadViewTests.xctest */,
+				8FD20DA9205A7906003998B7 /* ZWMusicDownLoadViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FD20D88205A7906003998B7 /* ZWMusicDownLoadView */ = {
+			isa = PBXGroup;
+			children = (
+				8F9329B4205D491400956798 /* Dome */,
+				8FD20DBB205A7A26003998B7 /* ZWMusicDownLoadView */,
+				8F9329B8205D492D00956798 /* Others */,
+				8FD20D92205A7906003998B7 /* Assets.xcassets */,
+				8FD20D97205A7906003998B7 /* Info.plist */,
+				8FD20D98205A7906003998B7 /* main.m */,
+			);
+			path = ZWMusicDownLoadView;
+			sourceTree = "<group>";
+		};
+		8FD20DA1205A7906003998B7 /* ZWMusicDownLoadViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FD20DA2205A7906003998B7 /* ZWMusicDownLoadViewTests.m */,
+				8FD20DA4205A7906003998B7 /* Info.plist */,
+			);
+			path = ZWMusicDownLoadViewTests;
+			sourceTree = "<group>";
+		};
+		8FD20DAC205A7906003998B7 /* ZWMusicDownLoadViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FD20DAD205A7906003998B7 /* ZWMusicDownLoadViewUITests.m */,
+				8FD20DAF205A7906003998B7 /* Info.plist */,
+			);
+			path = ZWMusicDownLoadViewUITests;
+			sourceTree = "<group>";
+		};
+		8FD20DBB205A7A26003998B7 /* ZWMusicDownLoadView */ = {
+			isa = PBXGroup;
+			children = (
+				8FD20DBC205A7A3D003998B7 /* ZWMusicDownLoadView.h */,
+				8FD20DBD205A7A3D003998B7 /* ZWMusicDownLoadView.m */,
+				8F735A53205BCA9D00309FE8 /* ZWMusicDownLoadBtn.h */,
+				8F735A54205BCA9D00309FE8 /* ZWMusicDownLoadBtn.m */,
+				8F735A56205BDAD200309FE8 /* ZWMusicalNoteView.h */,
+				8F735A57205BDAD200309FE8 /* ZWMusicalNoteView.m */,
+			);
+			path = ZWMusicDownLoadView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FD20D85205A7906003998B7 /* ZWMusicDownLoadView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD20DB2205A7906003998B7 /* Build configuration list for PBXNativeTarget "ZWMusicDownLoadView" */;
+			buildPhases = (
+				8FD20D82205A7906003998B7 /* Sources */,
+				8FD20D83205A7906003998B7 /* Frameworks */,
+				8FD20D84205A7906003998B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWMusicDownLoadView;
+			productName = ZWMusicDownLoadView;
+			productReference = 8FD20D86205A7906003998B7 /* ZWMusicDownLoadView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FD20D9D205A7906003998B7 /* ZWMusicDownLoadViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD20DB5205A7906003998B7 /* Build configuration list for PBXNativeTarget "ZWMusicDownLoadViewTests" */;
+			buildPhases = (
+				8FD20D9A205A7906003998B7 /* Sources */,
+				8FD20D9B205A7906003998B7 /* Frameworks */,
+				8FD20D9C205A7906003998B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD20DA0205A7906003998B7 /* PBXTargetDependency */,
+			);
+			name = ZWMusicDownLoadViewTests;
+			productName = ZWMusicDownLoadViewTests;
+			productReference = 8FD20D9E205A7906003998B7 /* ZWMusicDownLoadViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FD20DA8205A7906003998B7 /* ZWMusicDownLoadViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FD20DB8205A7906003998B7 /* Build configuration list for PBXNativeTarget "ZWMusicDownLoadViewUITests" */;
+			buildPhases = (
+				8FD20DA5205A7906003998B7 /* Sources */,
+				8FD20DA6205A7906003998B7 /* Frameworks */,
+				8FD20DA7205A7906003998B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FD20DAB205A7906003998B7 /* PBXTargetDependency */,
+			);
+			name = ZWMusicDownLoadViewUITests;
+			productName = ZWMusicDownLoadViewUITests;
+			productReference = 8FD20DA9205A7906003998B7 /* ZWMusicDownLoadViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FD20D7E205A7906003998B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = liunianhuaguoyanxi;
+				TargetAttributes = {
+					8FD20D85205A7906003998B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8FD20D9D205A7906003998B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FD20D85205A7906003998B7;
+					};
+					8FD20DA8205A7906003998B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FD20D85205A7906003998B7;
+					};
+				};
+			};
+			buildConfigurationList = 8FD20D81205A7906003998B7 /* Build configuration list for PBXProject "ZWMusicDownLoadView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FD20D7D205A7906003998B7;
+			productRefGroup = 8FD20D87205A7906003998B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FD20D85205A7906003998B7 /* ZWMusicDownLoadView */,
+				8FD20D9D205A7906003998B7 /* ZWMusicDownLoadViewTests */,
+				8FD20DA8205A7906003998B7 /* ZWMusicDownLoadViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FD20D84205A7906003998B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD20D93205A7906003998B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD20D9C205A7906003998B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD20DA7205A7906003998B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FD20D82205A7906003998B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F9329B7205D491400956798 /* ViewController.m in Sources */,
+				8F735A55205BCA9D00309FE8 /* ZWMusicDownLoadBtn.m in Sources */,
+				8F9329BB205D492D00956798 /* AppDelegate.m in Sources */,
+				8F735A58205BDAD200309FE8 /* ZWMusicalNoteView.m in Sources */,
+				8FD20DBE205A7A3D003998B7 /* ZWMusicDownLoadView.m in Sources */,
+				8FD20D99205A7906003998B7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD20D9A205A7906003998B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD20DA3205A7906003998B7 /* ZWMusicDownLoadViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD20DA5205A7906003998B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FD20DAE205A7906003998B7 /* ZWMusicDownLoadViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FD20DA0205A7906003998B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FD20D85205A7906003998B7 /* ZWMusicDownLoadView */;
+			targetProxy = 8FD20D9F205A7906003998B7 /* PBXContainerItemProxy */;
+		};
+		8FD20DAB205A7906003998B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FD20D85205A7906003998B7 /* ZWMusicDownLoadView */;
+			targetProxy = 8FD20DAA205A7906003998B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8FD20DB0205A7906003998B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FD20DB1205A7906003998B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FD20DB3205A7906003998B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWMusicDownLoadView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWMusicDownLoadView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FD20DB4205A7906003998B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWMusicDownLoadView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWMusicDownLoadView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FD20DB6205A7906003998B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWMusicDownLoadViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWMusicDownLoadViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWMusicDownLoadView.app/ZWMusicDownLoadView";
+			};
+			name = Debug;
+		};
+		8FD20DB7205A7906003998B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWMusicDownLoadViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWMusicDownLoadViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZWMusicDownLoadView.app/ZWMusicDownLoadView";
+			};
+			name = Release;
+		};
+		8FD20DB9205A7906003998B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWMusicDownLoadViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWMusicDownLoadViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWMusicDownLoadView;
+			};
+			name = Debug;
+		};
+		8FD20DBA205A7906003998B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZWMusicDownLoadViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.base.liunianhuaguoyanxi.ZWMusicDownLoadViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZWMusicDownLoadView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FD20D81205A7906003998B7 /* Build configuration list for PBXProject "ZWMusicDownLoadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD20DB0205A7906003998B7 /* Debug */,
+				8FD20DB1205A7906003998B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD20DB2205A7906003998B7 /* Build configuration list for PBXNativeTarget "ZWMusicDownLoadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD20DB3205A7906003998B7 /* Debug */,
+				8FD20DB4205A7906003998B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD20DB5205A7906003998B7 /* Build configuration list for PBXNativeTarget "ZWMusicDownLoadViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD20DB6205A7906003998B7 /* Debug */,
+				8FD20DB7205A7906003998B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FD20DB8205A7906003998B7 /* Build configuration list for PBXNativeTarget "ZWMusicDownLoadViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD20DB9205A7906003998B7 /* Debug */,
+				8FD20DBA205A7906003998B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FD20D7E205A7906003998B7 /* Project object */;
+}
