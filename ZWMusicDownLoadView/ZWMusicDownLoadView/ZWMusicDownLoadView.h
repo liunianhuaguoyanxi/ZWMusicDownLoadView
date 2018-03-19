@@ -13,6 +13,7 @@
 @protocol ZWMusicDownLoadViewDelegate <NSObject>;
 
 -(void)ClickToStartTheZWMusicDownLoadBtnInZWMusicDownLoadView:(ZWMusicDownLoadView *)musicDownLoadView ;
+
 @end;
 @interface ZWMusicDownLoadView : UIView
 /** MusicalProgress */

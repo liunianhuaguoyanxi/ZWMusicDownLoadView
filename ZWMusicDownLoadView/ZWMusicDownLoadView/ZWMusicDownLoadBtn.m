@@ -9,7 +9,7 @@
 #import "ZWMusicDownLoadBtn.h"
 
 @implementation ZWMusicDownLoadBtn
-
+//下载完成后，点击的Button
 -(instancetype)initWithFrame:(CGRect)frame
 {
     if (self=[super initWithFrame:frame]) {
@@ -17,6 +17,7 @@
     }
     return  self;
 }
+//TO DO
 -(void)setUpChild{
     
 }

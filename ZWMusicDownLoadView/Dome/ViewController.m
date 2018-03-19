@@ -13,14 +13,11 @@
 //#define singleOneSize 10.0
 #define Color(r,g,b,a) [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:a]
 @interface ViewController ()
-/** <#注释#> */
-@property (nonatomic, weak) UIView *domeView;
-@property (nonatomic, weak) UIView *domecustomView;
-/** <#注释#> */
+
 @property (nonatomic, weak) NSTimer  *startTimer;
-/** <#注释#> */
+
 @property (nonatomic, weak) ZWMusicDownLoadBtn *btn;
-/** <#注释#> */
+
 @property (nonatomic, weak) ZWMusicDownLoadBtn *btn1;
 
 @property (nonatomic, weak) ZWMusicDownLoadView *musicDownLoadView;
@@ -72,6 +69,7 @@
     customView.placeholderBtnText=@"点击播放";
     customView.placeholderBtnFont=[UIFont fontWithName:@"Helvetica-Bold" size:15];
     customView.placeholderFont=[UIFont fontWithName:@"Helvetica-Bold" size:12];
+//续下进度设置
 //    customView.musicalProgress=0.4;
     [self.view addSubview:customView];
     self.musicDownLoadcustomView=customView;

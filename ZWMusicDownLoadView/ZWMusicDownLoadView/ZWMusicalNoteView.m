@@ -23,7 +23,7 @@
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextScaleCTM(context, self.scaleSize ,self.scaleSize);
 
-    //设置线宽
+    //设置单双音符
     if (self.isSingleOne) {
         drawSingleBody1(context,rect,self.musicalColor);
         drawSingleBody2(context,rect,self.musicalColor);
