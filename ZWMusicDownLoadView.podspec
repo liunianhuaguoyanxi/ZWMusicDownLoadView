@@ -24,8 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "A beautiful musical download progress button which can show the progress and click to play Music after finishing"
 
   s.homepage     = "https://github.com/liunianhuaguoyanxi/ZWMusicDownLoadView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
