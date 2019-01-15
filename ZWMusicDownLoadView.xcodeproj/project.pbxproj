@@ -86,8 +86,8 @@
 		8F9329B4205D491400956798 /* Dome */ = {
 			isa = PBXGroup;
 			children = (
-				8F9329B5205D491400956798 /* ViewController.m */,
 				8F9329B6205D491400956798 /* ViewController.h */,
+				8F9329B5205D491400956798 /* ViewController.m */,
 			);
 			path = Dome;
 			sourceTree = "<group>";
